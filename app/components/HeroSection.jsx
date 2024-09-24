@@ -29,7 +29,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-          Hi there! I'm a passionate backend developer with a strong foundation in building robust and scalable server-side applications. I enjoy crafting efficient code that powers the core functionality of web and mobile applications. My expertise lies in Go, Node.js, SQL & NOSQL databases. I'm always eager to learn new technologies and solve complex problems. Let's build something great together!
+          Hi there! I&apos;m a passionate backend developer with a strong foundation in building robust and scalable server-side applications. I enjoy crafting efficient code that powers the core functionality of web and mobile applications. My expertise lies in Go, Node.js, SQL & NOSQL databases. I&apos;m always eager to learn new technologies and solve complex problems. Let&apos;s build something great together!
 
 
           </p>
