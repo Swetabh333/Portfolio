@@ -78,7 +78,7 @@ const AboutSection = () => {
           <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-base lg:text-lg mb-6">
-            I am a backend developer and O specialize in building robust, scalable back-end systems using technologies like Go, Node.js, Docker, MySQL, PostgreSQL, MongoDB, and Redis. With experience in front-end frameworks like React.js and Next.js, I integrate seamless user experiences. Proficient in tools such as Git, Docker, and Linux, and skilled in languages including Go, JavaScript, TypeScript, and SQL, I create innovative solutions to drive business growth.
+            I am a backend developer and I specialize in building robust, scalable back-end systems using technologies like Go, Node.js, Docker, MySQL, PostgreSQL, MongoDB, and Redis. With experience in front-end frameworks like React.js and Next.js, I integrate seamless user experiences. Proficient in tools such as Git, Docker, and Linux, and skilled in languages including Go, JavaScript, TypeScript, and SQL, I create innovative solutions to drive business growth.
             </p>
             
           </div>
