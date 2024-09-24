@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import {motion } from "framer-motion"
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -28,21 +29,22 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-            animi laudantium. Doloremque cupiditate adipisci maiores vel? Quis
-            ut vero reiciendis fuga mollitia exercitationem? Illum debitis hic,
-            accusamus maiores asperiores sit.
+          Hi there! I'm a passionate backend developer with a strong foundation in building robust and scalable server-side applications. I enjoy crafting efficient code that powers the core functionality of web and mobile applications. My expertise lies in Go, Node.js, SQL & NOSQL databases. I'm always eager to learn new technologies and solve complex problems. Let's build something great together!
+
+
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-800  to-red-800 hover:bg-slate-200 text-white">
+            <Link href="#contact" className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-800  to-red-800 hover:bg-slate-200 text-white">
               Hire Me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-800  to-red-800 hover:bg-slate-200 text-white   mt-3">
+            </Link>
+            <button  className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-800  to-red-800 hover:bg-slate-200 text-white   mt-3">
+              <Link href="https://drive.google.com/file/d/1ipNeu6mYq6_rY_Ewa_ZIRQ4txUFt_YTs/view?usp=drive_link">
               {" "}
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 {" "}
                 Resume
               </span>
+              </Link>
             </button>
           </div>
         </motion.div>

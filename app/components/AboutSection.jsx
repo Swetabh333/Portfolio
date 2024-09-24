@@ -61,7 +61,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white py-8 px-4 sm:py-16 xl:px-16">
+    <section className="text-white py-8 px-4 sm:py-16 xl:px-16" id="about">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div className=" md:top-20 md:pt-10 md:pl-10">
@@ -78,13 +78,7 @@ const AboutSection = () => {
           <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-base lg:text-lg mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              nobis, in magni quod quia veniam! Est modi nulla, earum nemo vero
-              architecto quos, assumenda ex unde quae quas, natus et? Lorem
-              ipsum dolor sit amet, consectetur adipisicing elit. Ex aperiam
-              temporibus, quis consequuntur debitis reprehenderit atque quae,
-              assumenda cum cupiditate nemo? Laudantium exercitationem illo quas
-              porro, cum consectetur aliquid libero! Lorem
+            I am a backend developer and O specialize in building robust, scalable back-end systems using technologies like Go, Node.js, Docker, MySQL, PostgreSQL, MongoDB, and Redis. With experience in front-end frameworks like React.js and Next.js, I integrate seamless user experiences. Proficient in tools such as Git, Docker, and Linux, and skilled in languages including Go, JavaScript, TypeScript, and SQL, I create innovative solutions to drive business growth.
             </p>
             
           </div>
