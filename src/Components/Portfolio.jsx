@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop-with-neon-bg.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A laptop with neon lights and a cup on it.";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "FileShareIO",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A go based application for file sharing between different users.",
+    url: "https://github.com/Swetabh333/File-Sharing-App",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Productiviy Tracker",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A productivity Tracker App powered by Next.js.",
+    url: "https://jotion-lime.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Multi-Threaded Proxy Server",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A multi threaded proxy server with concurrency control andcaching implemented in C++.",
+    url: "https://github.com/Swetabh333/multi-threaded-proxy-server",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Resume website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A resume erbsite created using Next.js.",
+    url: "https://swetabh.vercel.app/",
   },
 ];
 
